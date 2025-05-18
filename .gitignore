@@ -1,32 +1,141 @@
-# Prerequisites
-*.d
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio user-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
 
-# Precompiled Headers
-*.gch
-*.pch
+# Rider-specific files
+.idea/
+*.sln.iml
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Build directories for various tools
+build/
+Build/
+bld/
+[Bb]uilds/
 
-# Fortran module files
-*.mod
-*.smod
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+# NuGet v3 package folders
+**/global-packages/
+.nuget/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
 
-# Executables
-*.exe
-*.out
-*.app
+# DotCover
+*.dotCover
+
+# Rider & VS Code caches
+.cache/
+*.csproj.user
+*.pidb
+*.svd
+
+# ASP.NET temporary files
+aspnet_client/
+**/wwwroot/lib/
+
+# Entity Framework Migrations
+Migrations/
+
+# Azure
+*.azurePubxml
+*.azurePubxml.user
+*.PublishSettings
+
+# IIS Express
+.iis/
+
+# Local test and coverage results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+*.vsmdi
+*.testsettings
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.psess
+*.pdb
+
+# Code analysis
+*.ruleset
+*.g.cs
+*.g.i.cs
+Generated_Code/
+
+# T4 text templates
+*.tt
+*.ttinclude
+*.t4
+*.t4.include
+
+# StyleCop
+StyleCopReport.xml
+
+# File-based web servers
+node_modules/
+bower_components/
+jspm_packages/
+
+# Yarn
+.yarn/
+.pnp.*
+.yarnrc.yml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE backup and temp files
+*~
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swn
+
+# Other
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publish.xml
+*.orig
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Git itself
+*.orig
+*.rej
+
+# Optional: ignore test data
+test-output/
+tests/output/
